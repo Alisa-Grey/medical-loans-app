@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Proxima';
+  src: url('./fonts/ProximaNova-Bold.woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('./fonts/ProximaNova-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('./fonts/ProximaNova-Semibold.woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('./fonts/ProximaNova-Black.woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('./fonts/ProximaNova-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('./fonts/ProximaNova-Light.woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+html,
+body {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}

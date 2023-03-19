@@ -1,0 +1,21 @@
+.form-container {
+  &__heading, &__text {
+    align-self: center;
+    text-align: center;
+  }
+  
+  .form-container__text {
+    max-width: 90%;
+    margin-bottom: 16px;
+  }
+
+  .caption {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .hidden {
+    visibility: hidden
+  }
+}
+

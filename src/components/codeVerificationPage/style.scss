@@ -1,0 +1,10 @@
+.code-form {
+  display: flex;
+  flex-direction: column;
+
+  .text-btn {
+    align-self: flex-end;
+    padding: 5px 12px;
+    text-transform: none;
+  }
+}

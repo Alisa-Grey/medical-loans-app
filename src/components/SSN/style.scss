@@ -1,0 +1,46 @@
+.ssn {
+  display: flex;
+  flex-direction: column;
+  max-width: 390px;
+  padding: 32px 30px 19px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: inset -1px -1px 0px #FFF, inset 1px 1px 0px #FFF;
+  backdrop-filter: blur(100px);
+
+  &__top-container {
+    align-self: center;
+    max-width: 70%;
+    height: 200px;
+    margin-bottom: 16px;
+    text-align: center;
+    background-image: url('../../img/box.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  &__text {
+    padding-top: 134px;
+  }
+
+  &__legal-text {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 41px;
+    height: 36px;
+    margin-bottom: 15px !important;
+    color: #1F3B54;
+    background-image: url('../../img/shield.svg');
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+  }
+}
+
+.ssn .ssn__heading {
+  margin-bottom: 30px;
+}
+
+.comment {
+  text-align: center;
+  color: #B9BAD4;
+}

@@ -1,0 +1,38 @@
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 340px;
+  margin-bottom: 22px;
+  background: #fafaff;
+  border: 1px dashed #b9bad5;
+  border-radius: 4px;
+  cursor: pointer;
+  &__text {
+    margin: 0 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0e117b;
+    &-basic {
+      margin: 0 0 16px;
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      color: #b9bad5;
+    }
+  }
+}
+
+.error {
+  font-size: 16px;
+  color: #fb6e07;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

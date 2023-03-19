@@ -1,0 +1,25 @@
+.reg-layout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
+  padding: 20px 0;
+  background-image: url(../../../img/Login_background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2fbb80;
+}
+
+.main-layout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
+  margin: 0 auto;
+  background-image: url(../../../img/Landing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f3f4fa;
+}

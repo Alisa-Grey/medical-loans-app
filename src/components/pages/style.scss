@@ -1,0 +1,249 @@
+.page {
+  width: 80%;
+  margin: 0 auto;
+  @media (max-width: 450px) {
+    width: 90%;
+  }
+  @media (max-width: 330px) {
+    margin: 0;
+  }
+  .page__subheding {
+    margin-bottom: 28px;
+    text-align: start;
+    @media (max-width: 800px) {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.page-with-menu {
+  width: calc(100% - 100px);
+  @media (max-width: 500px) {
+    align-items: center;
+    width: 100%;
+    .headings-container {
+      padding-left: 20px;
+    }
+  }
+
+  .page-with-menu__subheding {
+    margin-bottom: 50px;
+    @media (max-width: 800px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .forms-container {
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    @media (max-width: 500px) {
+      align-items: center;
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .form {
+    width: 80%;
+    padding: 22px 22px 50px;
+    background-color: #fafaff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 0px #e5e5f4;
+
+    @media (max-width: 1050px) {
+      padding-bottom: 35px;
+    }
+
+    &__input {
+      width: 60%;
+      border-color: #595a94;
+      @media (max-width: 1050px) {
+        width: 70%;
+      }
+
+      @media (max-width: 800px) {
+        width: 100%;
+      }
+
+      &.masked-input {
+        width: 60%;
+        @media (max-width: 1050px) {
+          width: 70%;
+        }
+        @media (max-width: 800px) {
+          width: 100%;
+        }
+      }
+    }
+
+    &__btn {
+      margin-top: 20px;
+      @media (max-width: 500px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .menu-container {
+    width: 25%;
+    align-self: flex-start;
+
+    @media (max-width: 1100px) {
+      width: 100%;
+    }
+  }
+}
+
+.address-input {
+  .pac-container {
+    top: 40px !important;
+    left: 0 !important;
+  }
+}
+
+.loan-clickable {
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.payment-btn {
+  .payment-btn__text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+  }
+  &__text--mob {
+    display: none;
+  }
+
+  @media (max-width: 500px) {
+    &__text--normal {
+      display: none;
+    }
+    &__text--mob {
+      display: block;
+    }
+  }
+}
+
+.payments-container {
+  padding: 20px 23px;
+
+  @media (max-width: 800px) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f3f4fa;
+  }
+
+  @media (max-width: 400px) {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  @media (max-width: 330px) {
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border: 1px solid #f3f4fa;
+  box-sizing: border-box;
+  border-radius: 50px;
+
+  .payment__heading {
+    margin-bottom: 0;
+    align-self: center;
+  }
+
+  @media (max-width: 330px) {
+    padding: 10px;
+  }
+}
+
+.pages-icon-container {
+  align-self: center;
+  width: 42px;
+  height: 42px;
+  margin-right: 14px;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pending {
+  background-image: url(../../img/paymentWait.png);
+}
+
+.success {
+  background-image: url(../../img/paymentDone.png);
+}
+
+.doc-container {
+  position: relative;
+}
+.doc-img {
+  width: 180px;
+  height: 242px;
+
+  @media (max-width: 500px) {
+    width: 165px;
+    height: 221px;
+  }
+
+  @media (max-width: 330px) {
+    width: 150px;
+  }
+}
+
+.pages-btn-container {
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+  left: 8px;
+  .btn {
+    width: 100%;
+    background-color: #fff;
+    .no-loans {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+
+      .no-loans__text {
+        width: 45%;
+        margin-bottom: 20px;
+        text-align: center;
+        @media (max-width: 1100px) {
+          width: 80%;
+        }
+        @media (max-width: 800px) {
+          width: 90%;
+        }
+      }
+
+      &__img {
+        margin-right: 0;
+        margin-bottom: 40px;
+        background-image: url(../../img/paper.png);
+      }
+
+      .no-loans__btn {
+        padding: 12px 60px;
+      }
+    }
+  }
+}

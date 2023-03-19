@@ -1,0 +1,123 @@
+.container.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+  @media (max-width: 600px) {
+    border-radius: 0;
+    padding: 20px;
+  }
+}
+
+.form-container.status-container {
+  padding: 84px 32px 65px;
+}
+
+.icon-container {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+}
+
+.accept {
+  background-image: url(../../img/accept.png);
+}
+
+.decline {
+  background-image: url(../../img/decline.png);
+}
+
+.checking {
+  margin: 70px 0;
+  background-image: url(../../img/search.gif);
+  background-size: contain;
+}
+
+.accept::after {
+  content: '';
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: -5px;
+  left: -6px;
+  background-image: url(../../img/success.gif);
+  background-size: contain;
+}
+
+.text {
+  max-width: 70%;
+  text-align: center;
+  @media (max-width: 500px) {
+    max-width: 98%;
+  }
+}
+
+.text.descr {
+  margin-bottom: 22px;
+}
+
+.result-container .btn {
+  min-width: 330px;
+}
+
+.loan-details {
+  box-sizing: border-box;
+  margin-bottom: 27px;
+  padding: 20px 22px;
+  border-radius: 4px;
+  background-color: #fafaff;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .loan-details__heading {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #595a94;
+    @media (max-width: 600px) {
+      margin-bottom: 5px;
+    }
+  }
+  .loan-details__value {
+    display: inline-block;
+    @media (max-width: 600px) {
+      font-size: 15px;
+    }
+
+    &--highlighted {
+      font-weight: 600;
+      color: #1F3B54;
+    }
+  }
+}
+
+.highlited-text {
+  color: #2fbb80;
+}
+
+.comment {
+  font-weight: 400;
+  color: #b9bad5;
+}
+
+.check-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 75%;
+  margin-bottom: 30px;
+  @media (max-width: 600px) {
+    max-width: 90%;
+  }
+}
+
+.btn-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+}
